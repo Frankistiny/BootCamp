@@ -1,4 +1,5 @@
 Project 1: Securing Cloud Applications
+
 Technologies Used: Azure: {Keyvaults, App Services, Front Door, WAF}, PHP, HTML, Docker, OpenSSL
 
 Developed and designed a cyber-blog web application using Azure’s Cloud services and Docker
