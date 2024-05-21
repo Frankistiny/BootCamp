@@ -1,5 +1,7 @@
 # 💫 About Me:
-Im currently in Cybersecurity bootcamp, and putting the things i've done here as a portfolio to showcase my skills and what I have learn
+Im currently in Cybersecurity bootcamp, and putting the things i've done here as a portfolio to showcase my skills and what I have learn.
+My journey in cybersecurity has been one filled with continuous learning, exploration, and a commitment to enhancing digital resilience.
+Through this GitHub, I aim to further my knowledge in cybersecurity, demystify cybersecurity concepts, share practical tips, and foster a community of proactive digital citizens
 
 
 ## 🌐 Socials:
