@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="/">
+                Steven Mercado's CYBER BLOG
+            </a>
+        </h1>
+        <a href="mailto:mercadomarlsteven@gmail.com" class="button">Send Email</a>
+        <a href="https://www.linkedin.com/in/steven-mercado/" class="linkedin"><img
+                src="https://lh3.googleusercontent.com/drive-viewer/AKGpihab7zPKEffi5o_e-pS3FdTMPgjq64HAvQTia1pqpkZHKM7Pmkx4WjSHv1bStUhZR5rOglaNPkGoaWWk5q6mYaKXj989J9NyvvQ=s1600-rw-v1" alt="LinkedIn logo"
+                height="45px"></a>
+    </header>
+
+
+    <!-- "About" section -->
+    <section id="about" class="intro">
+        <!--Replace with your own image-->
+        <img src="https://image.shutterstock.com/mosaic_250/549673/1198362232/stock-photo-hacking-and-malware-concept-hacker-using-abstract-laptop-with-binary-code-digital-interface-1198362232.jpg"
+            alt="Robert Smith picture" height=375px;>
+        <h2 class="section-title" style="color:#000000;">Hi, I'm Steven!</h2>
+        <p style="color:#000000;">
+            Welcome to my blog! I'm Steven Mercado, the creator and writer behind this digital space. Im thrilled to have you here and excited to share my thoughts, experiences, and insights with you.
+            <br><br>
+            I'm a cybersecurity enthusiast, based in Sydney, Australia, with a passion for understanding and safeguarding digital landscapes.
+            My journey in cybersecurity has been one filled with continuous learning, exploration, and a commitment to enhancing digital resilience.
+            Through this blog, I aim to further my knowledge in cybersecurity, demystify cybersecurity concepts, share practical tips, and foster a community of proactive digital citizens.
+        </p>
+    </section>
+
+
+    <!-- "Blog Posts" section -->
+    <section id="blog-post-collection" class="blog-posts">
+        <h2 class="section-title">Blog Posts</h2>
+        <article class="blog-post">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZPMpc8MAFlG_oAigq7-gVIlR30yRhyzlRVnt4hlD8swZPuYqmc_aMRd5dJMe6F0wx3hpxPYLfEqFuoVVnRY3CebwbGXr6OzkY=s2560" alt="Image 1">
+
+            <div class="blog">
+                <h3>OS Update</h3>
+                <h4>Microsoft, Windows, MacOS, Adobe, Chrome</h4>
+                <p>
+                   Microsoft has released updates addressing more than 60 security vulnerabilities in Windows computers and supported software, including two zero-day flaws that are already being exploited. 
+                   One of these zero-days, CVE-2024-30051, is an 'elevation of privilege' bug used for post-compromise activity, requiring social engineering tactics to exploit.
+                   The second, CVE-2024-30040, is a security feature bypass in MSHTML affecting Office 365 and Microsoft Office applications.
+                   Kaspersky Lab has published details on how they discovered the exploit, which has been observed alongside QakBot malware.
+                   The only flaw rated 'critical' by Microsoft this month is CVE-2024-30044, a Sharepoint vulnerability with potential exploitation.
+                   Google also patched a zero-day in Chrome, prompting users to restart their browsers for the update.
+                   Apple has released macOS Sonoma 14.5 update with nearly two dozen security patches.
+                   Adobe has critical security patches for various products like Acrobat and Illustrator.
+                   Regardless of the system used, it's advisable to back up data before applying updates.
+                   For detailed information on the fixes, resources like the SANS Internet Storm Center and askwoody.com are recommended.
+                </p>
+            </div>
+        </article>
+
+
+        <!-- second blog post -->
+        <article class="blog-post">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYnLpmdGhPkhgRuQ7YJMFR_Hqt5R7hDGlcjBRuVLV7cHnq6AwABwylpqPrftiscXdYJQW2I8FBMfk3Y8EroUBCfM-UjzX0VS10=s1600-rw-v1" alt="Image-2">
+            <div class="blog">
+                <h3>What is WannaCry</h3>
+                <h4>Ransomware, Cryptography</h4>
+                <p>
+                   WannaCry, a ransomware cryptoworm cyber attack, specifically targeted computers running the Microsoft Windows operating system.
+                   It emerged on May 12, 2017, encrypting data and demanding ransoms ranging from $300 to $600, payable in Bitcoin. 
+                   Known by various aliases such as WannaCrypt, WCry, and Wana Decryptor, the attack installed a backdoor in infected systems.
+                   It exploited EternalBlue, a vulnerability in older Windows systems, initially discovered by the NSA and later leaked by The Shadow Brokers. 
+                   Despite a patch being available, WannaCry thrived due to unpatched systems and outdated software. 
+                   The attack's impact was staggering, infecting over 200,000 computers across 150 countries and causing damages estimated in the billions of dollars. 
+                   Investigations pointed to North Korea as the orchestrator, supported by linguistic analysis and code similarities to previous North Korean cyber activities. 
+                   The attack affected various sectors globally, including healthcare, telecommunications, and manufacturing. 
+                   WannaCry's spread was facilitated by its ability to automatically propagate through networks, exploiting vulnerable systems without user interaction. 
+                   Its ransom demands were typically $300 in Bitcoin, with payments directed to hardcoded Bitcoin addresses. 
+                   Although patches were released promptly by Microsoft, the attack's severity highlighted the importance of basic IT security measures and risk management practices. 
+                   WannaCry prompted calls for improved cybersecurity standards and legislation to enhance vulnerability disclosure processes. 
+                   Precautionary measures, such as regular system patching, data backups, and cybersecurity monitoring, were advocated to mitigate the impact of similar attacks in the future. 
+                   UpGuard's cybersecurity solutions, including BreachSight and continuous exposure detection, were recommended for organizations seeking to bolster their defenses against ransomware and other cyber threats.
+                </p>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
